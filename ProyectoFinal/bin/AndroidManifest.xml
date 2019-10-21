@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.duhnnae.proyectofinal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/rana_ico"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.duhnnae.proyectofinal.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.GameActivity"
+            android:label="@string/title_activity_game"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.LoadingActivity"
+            android:label="@string/title_activity_loading"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.GameActivity3"
+            android:label="@string/title_activity_game_activity2"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.DeadScreen"
+            android:label="@string/title_activity_dead_pantalla_tress"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.Creditos"
+            android:label="@string/title_activity_creditos"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.NextNormalLevel"
+            android:label="@string/title_activity_next_normal_level"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.duhnnae.proyectofinal.NextHardLevel"
+            android:label="@string/title_activity_next_hard_level" 
+            android:screenOrientation="landscape" >
+        </activity>
+           <activity
+            android:name="com.duhnnae.proyectofinal.GameActivity2"
+            android:label="@string/title_activity_next_normal_level"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

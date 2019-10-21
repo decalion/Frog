@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Catalan Strings -->
+    
+    
+    <!-- Dead Screen String -->
+    <string name="you_dead">Has Perdut</string>
+    <string name="dead_score">Puntuacio obtinguda:</string>
+    <string name="dead_button_text">Torna a intentar-lo</string>
+     
+      <!-- MainActivity -->
+    <string name="easylevel_button">Nivell Facil</string>
+    <string name="normal_button">Nivell Normal</string>
+    <string name="hard_button">Nivell Dificil</string>
+    
+    
+        <!-- NextNormalLevel Screen -->
+    <string name="bt_nextnormal_next">Seguent Nivell</string>
+    <string name="bt_nextnormal_back">Torna al Menu</string>
+    <string name="tv_nextnormal_win">Has guanyat</string>
+    <string name="tv_nextnormal_score">Puntuacio :</string>
+    
+        <!-- Credit Screen Strings -->
+    <string name="congratz_message">Felicitats has acabat el joc</string>
+    <string name="hard_points">Puntuacio :</string>
+    <string name="hard_max_points">Maxima Puntuacio</string>
+    <string name="designe">Diseñat per :</string>
+    <string name="cristian">Cristian Bautista(Programador d\'Android)</string>
+    <string name="ismael">Ismael Caballero(Programador d\'Android)</string>
+    <string name="dani">Daniel Cordoba(Programador d\'Android)</string>
+    <string name="thanks">Gracies per Jugar</string>
+    <string name="credit_boton_back">Torna al Menu</string>
+
+</resources>

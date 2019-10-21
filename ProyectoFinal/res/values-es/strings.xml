@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Spanish Strings -->
+
+
+
+    <string name="app_name">Survival Frog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_game">Nivel Facil</string>
+    <string name="start">Start</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="restart">Restart</string>
+    <string name="title_activity_loading">Cargando</string>
+    <string name="title_activity_game_activity2">Nivel Dificil</string>
+    <string name="title_activity_dead_pantalla_tress">Pantalla de Muerte</string>
+    <string name="title_activity_creditos">Pantalla de Creditos</string>
+    <string name="title_activity_next_normal_level">Siguiente nivel</string>
+
+
+     <!-- Loading Screen -->
+    <string name="loading">Cargando...</string>
+
+
+    <!-- Dead Screen String -->
+    <string name="you_dead">Has Perdido</string>
+    <string name="dead_score">Puntuacion obtenida :</string>
+    <string name="dead_button_text">Vuelve a Intentarlo</string>
+
+    <!-- MainActivity -->
+    <string name="easylevel_button">Nivel Facil</string>
+    <string name="normal_button">Nivel Normal</string>
+    <string name="hard_button">Nivel Dificil</string>
+
+    <!-- NextNormalLevel Screen -->
+    <string name="bt_nextnormal_next">Siguiente Nivel</string>
+    <string name="bt_nextnormal_back">Volver al Menu</string>
+    <string name="tv_nextnormal_win">Has Ganado</string>
+    <string name="tv_nextnormal_score">Puntuacion :</string>
+
+    <!-- Credit Screen Strings -->
+    <string name="congratz_message">Felicidades has acabado el juego</string>
+    <string name="hard_points">Puntuacion :</string>
+    <string name="hard_max_points">Maxima Puntuacion</string>
+    <string name="designe">Diseñado por :</string>
+    <string name="cristian">Cristian Bautista(Programador de Android)</string>
+    <string name="ismael">Ismael Caballero(Programador de Android)</string>
+    <string name="dani">Daniel Cordoba(Programador de Android)</string>
+    <string name="thanks">Gracias por Jugar</string>
+    <string name="credit_boton_back">Volver al Menu</string>
+
+</resources>

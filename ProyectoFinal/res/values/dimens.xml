@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Defaults Dimens -->
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="myFontSize">20sp</dimen>
+
+    <!-- MainActivity Dimens -->
+    <dimen name="botones_ancho">120dp</dimen>
+    <dimen name="botones_alto">40dp</dimen>
+    <dimen name="boton_hard_ancho">120dp</dimen>
+    <dimen name="boton_hard_alto">40dp</dimen>
+    <dimen name="boton_normal_ancho">120dp</dimen>
+    <dimen name="boton_normal_alto">40dp</dimen>
+    <dimen name="boton_hardlevel_margin_top">20dp</dimen>
+    <dimen name="boton_easylevel_margin_top">20dp</dimen>
+    <dimen name="boton_normallevel_margin_top">20dp</dimen>
+    <dimen name="logo_alto">130dp</dimen>
+
+    <!-- NextNormalLevel Screen Dimens -->
+    <dimen name="bt_nextnormal_next_ancho">140dp</dimen>
+    <dimen name="bt_nextnormal_next_alto">35dp</dimen>
+    <dimen name="bt_nextnormal_next_margin_top">20dp</dimen>
+    <dimen name="bt_nextnormal_back_ancho">140dp</dimen>
+    <dimen name="bt_nextnormal_back_alto">35dp</dimen>
+    <dimen name="bt_nextnormal_back_margin_top">20dp</dimen>
+    <dimen name="tv_puntuacion_margin_top">45dp</dimen>
+
+    <!-- Dead Screen Dimens -->
+    <dimen name="dead_boton_ancho">140dp</dimen>
+    <dimen name="dead_boton_alto">35dp</dimen>
+    <dimen name="dead_boton_margin_top">50dp</dimen>
+    <dimen name="dead_score_margin_top">40dp</dimen>
+
+    <!-- Credit Screen Dimens -->
+    <dimen name="credit_boton_ancho">120dp</dimen>
+    <dimen name="credit_boton_alto">35dp</dimen>
+    <dimen name="credit_hard_score_margin_top">16dp</dimen>
+    <dimen name="credit_design_margin_top">16dp</dimen>
+    <dimen name="credit_thanks_margin_top">14dp</dimen>
+
+</resources>

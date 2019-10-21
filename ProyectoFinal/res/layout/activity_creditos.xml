@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Creditos" >
+
+    <TextView
+        android:id="@+id/tvgameend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/congratz_message" />
+
+    <TextView
+        android:id="@+id/tvhardendscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tvgameend"
+        android:layout_marginTop="@dimen/credit_hard_score_margin_top"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_lost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvhardendscore"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/credit_design_margin_top"
+        android:layout_toLeftOf="@+id/tvhardendscore"
+        android:text="@string/designe" />
+
+    <TextView
+        android:id="@+id/tvcristian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lost"
+        android:layout_toRightOf="@+id/tv_lost"
+        android:text="@string/cristian" />
+
+    <TextView
+        android:id="@+id/tvismael"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvcristian"
+        android:layout_toRightOf="@+id/tv_lost"
+        android:layout_centerVertical="true"
+        android:text="@string/ismael" />
+
+    <TextView
+        android:id="@+id/tvdani"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvismael"
+        android:layout_toRightOf="@+id/tv_lost"
+        android:text="@string/dani" />
+
+    <TextView
+        android:id="@+id/tvthanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_lost"
+        android:layout_below="@+id/tvdani"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/credit_thanks_margin_top"
+        android:text="@string/thanks" />
+
+    <Button
+        android:id="@+id/bthardendback"
+        android:layout_width="@dimen/credit_boton_ancho"
+        android:layout_height="@dimen/credit_boton_alto"
+        android:layout_alignTop="@+id/tvthanks"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/tvgameend"
+        style="@style/btnStyleOrange"
+        android:text="@string/credit_boton_back" />
+
+</RelativeLayout>
